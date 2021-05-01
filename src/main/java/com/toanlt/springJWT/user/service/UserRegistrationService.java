@@ -47,7 +47,7 @@ public class UserRegistrationService {
                 + APIRoutes.API_URL.CONFIRM_TOKEN
                 + "?token="
                 + token;
-        System.out.println(link);
+
         emailService.send(request.getEmail(), buildEmail(fullName, link));
         return token;
     }

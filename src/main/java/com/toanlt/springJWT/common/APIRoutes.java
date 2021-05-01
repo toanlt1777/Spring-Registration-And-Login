@@ -6,5 +6,8 @@ public class APIRoutes {
     public class API_URL {
         public static final String REGISTRATION = "/registration";
         public static final String CONFIRM_TOKEN = "/confirm";
+        public static final String LOGIN = "/login";
+        public static final String HOME_USER = "/home";
+        public static final String HOME_ADMIN = "/admin";
     }
 }
