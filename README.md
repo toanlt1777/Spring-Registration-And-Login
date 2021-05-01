@@ -10,6 +10,9 @@
 ### Note
 I've tested the mail sender with Maildev server node 
 
+![Capture](https://user-images.githubusercontent.com/33459024/116781880-06cd0e80-aab0-11eb-885a-a48438177d8c.PNG)
+
+
 ``$ npm install -g maildev``
 
 ``$ maildev``
